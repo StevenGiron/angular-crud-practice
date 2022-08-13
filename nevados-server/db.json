@@ -1,0 +1,58 @@
+{
+  "nevados": [
+    {
+      "id": "nev-tolima",
+      "nombre": "Nevado del Tolima",
+      "ubicacion": "Cordillera Central, Los Andes Colombia",
+      "continente": "América del Sur",
+      "altitud": 5220,
+      "actividad_volcanica": "No",
+      "alt_img": "https://www.mountain-forecast.com/system/images/19259/large/Nevado-del-Tolima.jpg?1427543849"
+    },
+    {
+      "id": "nev-ruiz",
+      "nombre": "Nevado del Ruiz",
+      "ubicacion": "Cordillera Central, Los Andes Colombia",
+      "continente": "América del Sur",
+      "altitud": 5321,
+      "actividad_volcanica": "Si",
+      "alt_img": "http://esculturasymonumentos.com/wp-content/uploads/2018/11/nevado-del-ruiz-1.jpg"
+    },
+    {
+      "id": "nev-chaupi",
+      "nombre": "Nevado de Chaupi Orco",
+      "ubicacion": "Cordillera de Apolobamba, Los Andes Peruanos y Bolivianos",
+      "continente": "América del Sur",
+      "altitud": 6044,
+      "actividad_volcanica": "No",
+      "alt_img": "https://www.travels-bolivia.com/es/wp-content/uploads/2018/08/best-9.jpg"
+    },
+    {
+      "id": "vol-cotopaxi",
+      "nombre": "Volcán Cotopaxi",
+      "ubicacion": "Cordillera Oriental , Los Andes Ecuatorianos",
+      "continente": "América del Sur",
+      "altitud": 5897,
+      "actividad_volcanica": "Si",
+      "alt_img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2c/fd/8c.jpg"
+    },
+    {
+      "id": "mon-kilimanjaro",
+      "nombre": "Monte Kilimanjaro",
+      "ubicacion": "Montañas del Rift Orientales, Tanzania",
+      "continente": "África",
+      "altitud": 5892,
+      "actividad_volcanica": "No",
+      "alt_img": "https://wallpaperaccess.com/full/2713290.jpg"
+    },
+    {
+      "nombre": "Monte Everest",
+      "ubicacion": "Cordillera Mahalangur Himal, Himalaya",
+      "continente": "Asia",
+      "altitud": "8848",
+      "actividad_volcanica": "No",
+      "alt_img": "https://i.pinimg.com/originals/41/61/67/416167aecce801a87227be5f0b93ab85.jpg",
+      "id": "wDtdVSh"
+    }
+  ]
+}

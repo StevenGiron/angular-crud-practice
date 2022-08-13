@@ -1,0 +1,38 @@
+<div fxLayoutAlign="center">
+    <h1>
+        {{(nevado.id) ? 'Editar' : 'Nuevo' }} Nevado
+        <h5>{{nevado.nombre}}</h5>
+    </h1>
+</div>
+
+<div fxLayout="row" fxLayoutGap="40px" fxLayoutAlign="center" fxLayout.xs="column">
+    <div class="form-container" fxLayout="column">
+
+        <div>
+            <h5>Nombre</h5>
+            <input type="text" pInputText [(ngModel)]="nevado.nombre">
+
+            <h5>Ubicación</h5>
+            <input type="text" pInputText [(ngModel)]="nevado.ubicacion">
+
+            <h5>Continente</h5>
+            <input type="text" pInputText [(ngModel)]="nevado.continente">
+
+        </div>
+
+    </div>
+    <div class="form-container">
+        <h5>altitud</h5>
+        <input type="text" pInputText [(ngModel)]="nevado.altitud">
+
+        <h5>Actividad Volcanica</h5>
+        <input type="text" pInputText [(ngModel)]="nevado.actividad_volcanica">
+
+        <h5>Imagen</h5>
+        <input type="text" pInputText [(ngModel)]="nevado.alt_img">
+    </div>
+</div>
+
+<div class="button-container" fxLayoutAlign="center">
+    <button pButton (click)="crear()">guardar</button>
+</div>

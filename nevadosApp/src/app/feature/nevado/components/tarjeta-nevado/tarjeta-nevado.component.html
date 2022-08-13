@@ -1,0 +1,16 @@
+<p-card header={{nevado.nombre}} subheader={{nevado.ubicacion}} [style]="{width: '360px'}" styleClass="p-card-shadow">
+    <ng-template pTemplate="header">
+        <img alt="Card" [src]="nevado.alt_img">
+    </ng-template>
+    <ul>
+        <li> <strong> Continete:  </strong> {{nevado.continente}} </li>
+        <li> <strong>Altitud: </strong> {{nevado.altitud}} </li>
+        <li> <strong>Actividad Volcánica: </strong> {{nevado.actividad_volcanica}} </li>
+    </ul>
+    <ng-template pTemplate="footer">
+        <div fxLayout="row">
+            <button pButton label="Eliminar" (click)="eliminarNevado()" icon="pi pi-check"></button>
+            <button pButton label="Editar" [routerLink]="['/nevado/editar', nevado.id]" icon="pi pi-times" styleClass="p-button-secondary" [style]="{'margin-left': '.5em'}"></button>
+        </div>
+    </ng-template>
+</p-card>

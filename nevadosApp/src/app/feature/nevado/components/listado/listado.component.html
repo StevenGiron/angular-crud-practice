@@ -1,0 +1,5 @@
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="20px">
+    <div class="card" *ngFor="let nevado of nevados">
+        <app-tarjeta-nevado [nevado]='nevado' (eliminar)="eliminarNevado($event)"></app-tarjeta-nevado>
+    </div>
+</div>

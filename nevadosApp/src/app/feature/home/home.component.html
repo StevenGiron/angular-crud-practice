@@ -1,0 +1,18 @@
+<div class="container">
+    <div>
+        <h1>Montañas del Mundo</h1>
+        <span>Ven a descubrir estos maravillosos y majestuosos ecosistemas</span>
+    </div>
+</div>
+<div>
+    <p-galleria [value]="imagenes" [responsiveOptions]="responsiveOptions" [numVisible]="5" [circular]="true" [autoPlay]="true" [transitionInterval]="3000">
+        <ng-template pTemplate="item" let-item>
+            <img [src]="item.previewImageSrc" style="width: 40%; display: block;" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+            <div class="grid grid-nogutter justify-content-center">
+                <img [src]="item.thumbnailImageSrc" style="display: block; width: 30%;" />
+            </div>
+        </ng-template>
+    </p-galleria>
+</div>
